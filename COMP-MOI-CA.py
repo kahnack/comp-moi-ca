@@ -15,6 +15,7 @@
 
 # Maintenance :
 
+quelconque
 
 ### Importation
 from CompMoiCaDATA import *
