@@ -8,17 +8,20 @@
 # Comparaison de 2 fichiers venant de BATCH Cobol
 
 # fonctionnalitée à implanter :
-# - améliorer le cartouche
-# - bloc bilan
-# - comparaison
+# - 
+# - 
+# - 
+# - 
 
 
 # Maintenance :
 
-quelconque
+
+pas que quelconque
 
 ### Importation
-from CompMoiCaDATA import *
+from COMP-MOI-CA_data import *
+
 
 
 
@@ -46,7 +49,7 @@ b = fichier2.readline()
 ### TODO : gérer des fichier avec des nombre d'enreg differents
 
 while (a!='' and b!=''):
-   
+    print('rpout')
     for i in comparer(a,b):
         fichier3.write(i+'\n')
     a = fichier1.readline()
@@ -57,7 +60,7 @@ while (a!='' and b!=''):
 fichier3.close()
 
 
-
+print('je passe là')
 
 
 
