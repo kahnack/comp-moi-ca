@@ -58,8 +58,9 @@ while (a!='' and b!=''):
 fichier3.close()
 
 
-prout = "Caca"
-printf('Je suis immature')
+print('je passe là')
+
+
 
 
 
